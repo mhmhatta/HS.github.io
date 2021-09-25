@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hatta's Calculator</title>
+    <link rel="stylesheet" href="Hatta'sCalculator.css" type="text/css"/>
+</head>
+    <body>
+        <body>
+            <nav>
+                    <ul>
+                        <li id="logo"> <img class="logo" src="new logo.jpg" alt="H'S logo"></li>
+                        <li id="dropdown"><a href="javascript:void(0)" id="dropbtn">MENU</a><div class="dropdown-cntnt">
+                                <a href="index WHMI.html">(Task 1) News</a>
+                                <a href="Challenge!.html">(Task 2) FORM</a>
+                                <a href="Simply Calculator.html">(Task 3) Simply Calculator</a>
+                            </div>
+                        </li>
+                        <li><a href="index.html">HOME</a></li>
+                        <li id="cnt"><a href="">CONTACT</a></li>   
+                    </ul>   
+            </nav>
+         <div>
+            <h1>SIMPLE ARITHMETIC <br> CALCULATOR</h1>
+            <p><sub>By Hatta</sub></p>
+            <hr>
+            <input id="V1" type="number" placeholder="value 1"/>
+            <br>
+            <input id="V2" type="number" placeholder="value 2"/>
+            <br>
+            <br>
+            <button id="add"> + </button>
+            <button id="sub"> - </button>
+            <button id="mply"> x </button>
+            <button id="div"> &#247 </button>
+            <br>
+            <br>
+            <input id="result" type="number" readonly />
+        </div>
+        <script type="text/javascript">
+            var v1 = document.getElementById("V1");
+            var v2 = document.getElementById("V2");
+            var res = document.getElementById("result")
+
+            document.getElementById("add").addEventListener("click", function() {
+            res.value =
+            parseFloat(v1.value)+parseFloat(v2.value);  
+            });
+            document.getElementById("sub").addEventListener("click", function() {
+            res.value =
+            parseFloat(v1.value)-parseFloat(v2.value);  
+            });
+            document.getElementById("mply").addEventListener("click", function() {
+            res.value =
+            parseFloat(v1.value)*parseFloat(v2.value);  
+            });
+            document.getElementById("div").addEventListener("click", function() {
+            res.value =
+            parseFloat(v1.value)/parseFloat(v2.value);  
+            });
+        </script>
+    </body>
+</html>

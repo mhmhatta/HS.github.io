@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<center>    
+    <body>
+            <nav>
+                    <ul>
+                        <li id="logo"> <img class="logo" src="new logo.jpg" alt="H'S logo"></li>
+                        <li id="dropdown"><a href="javascript:void(0)" id="dropbtn">MENU</a><div class="dropdown-cntnt">
+                                <a href="index WHMI.html">(Task 1) News</a>
+                                <a href="Challenge!.html">(Task 2) FORM</a>
+                                <a href="Simply Calculator.html">(Task 3) Simply Calculator</a>
+                            </div>
+                        </li>
+                        <li><a href="index.html">HOME</a></li>
+                        <li id="cnt"><a href="">CONTACT</a></li>   
+                    </ul>   
+            </nav>
+        <style>
+            body {
+                background-image: url("bg\ cloud\ medium.jpg");
+                background-repeat: no-repeat;
+                background-size: 100%;
+            }
+        </style>
+        <link href="Form.css" rel="stylesheet" type="text/css">
+        <title>tugas2.html</title>
+        <body>
+            <h1 style="font-family: 'Trebuchet MS';">DAFTARKAN DIRI ANDA!</h1>
+            <fieldset style="width: fit-content;">
+                <legend><b>Akun</b></legend>
+            <table>
+            <form action="Terima Kasih.html" method="POST">
+                <tr>
+                    <td><label for="Username">Username</label></td>
+                    <td><input type="text" id="Username" name="Username" required><br></td>
+                </tr>
+                <tr>
+                    <td><label for="Password">Password</label></td>
+                    <td><input type="password" id="Passwod" name="Password" required><br></td>
+                </tr>
+                <tr>
+                    <td><label for="Konfirmasi Password">Konfirmasi Password</label></td>
+                    <td><input type="password" id="Konfirmasi Password" name="Konfirmasi Password"><br></td>
+                </tr>
+            </table>
+            </fieldset>
+            <br>
+            <fieldset style="width: fit-content;">
+                <legend><b>Data</b></legend>
+            <table>
+                <tr>
+                    <td><label for="Nama">Nama :</label></td>
+                    <td><input type="text" id="Nama" name="Nama" required><br><br></td>
+                </tr>
+                <tr>
+                    <td><label for="TGL">Tanggal Lahir :</label></td>
+                    <td><input type="date" id="TGL" name="TGL" min="1995-01-01" max="2021-09-07"><sup>  *(1995-2021)</sup></style></td>
+                </tr>
+                <tr>
+                    <td><label for="Email">Email :</label></td>
+                    <td><input type="email" id="Email" name="Email" required><br></td>
+                </tr>
+                <tr>
+                    <td><label for="Age">Usia :</label></td>
+                    <td><input type="number" id="Age" name="Age" min="1" max="26" placeholder="max: 26 thn" style="width: 100px;"><br></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Jurusan">Jurusan :</label>
+                        <td>
+                        <select>
+                            <option value="0">-</option>
+                            <option value="1">Ilmu Komputer</option>
+                            <option value="2">Teknologi Informasi</option>
+                        </select>
+                        </td>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="Jenis Kelamin">Jenis Kelamin :</label></td>
+                    <td>
+                    <input type="radio" id="Pria" name="Jenis Kelamin" value="Pria">
+                    <label for="Pria">Pria</label><br/>
+                    <input type="radio" id="Wanita" name="Jenis Kelamin" value="Wanita" style="margin-left: -3px;">
+                    <label for="Wanita">Wanita</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    <label for="Informasi Yang Disukai">Informasi Yang Diminati :</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="Info1" name="Info1" value="Sport">
+                        <label for="Info1">Olahraga</label><br>
+                        <input type="checkbox" id="Info2" name="Info2" value="Travelling">
+                        <label for="Info2">Travelling</label><br>
+                        <input type="checkbox" id="Info3" name="Info3" value="Healthy">
+                        <label for="Info3">Kesehatan</label><br>
+                        <input type="checkbox" id="Info4" name="Info4" value="Song">
+                        <label for="Info4">Musik</label><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="color">Warna Favorit :</label></td>
+                    <td><input type="color" id="color" name="color"><br></td>
+                </tr>
+                <tr>
+                    <td><label for="Tentang Anda">Tentang Anda :</label></td>
+                    <td><textarea id="TentangAnda" name="TentangAnda" rows="5" cols="60"></textarea></td>
+                </tr>
+            </table>
+        </fieldset>
+            <br>
+            <tr> 
+                <a href="Terima Kasih.html" style="text-decoration: none;">
+                <button type="submit">Daftar</button>
+                </a>
+                <button type="reset">Reset the form</button>
+
+            </tr>
+        </form>
+        </div>
+    </body>
+    </center>
+</html>

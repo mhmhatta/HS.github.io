@@ -1,0 +1,136 @@
+@font-face {
+    font-family: Origin Tech;
+    src: url(fonts/origin_tech/OriginTech\ personal\ use.ttf);
+    font-family: Digital-7;
+    src: url(fonts/digital_7/digital-7\ \(italic\).ttf);
+}
+@font-face {
+    font-family: pixelmania;
+    src: url(fonts/pixelmania/Pixelmania.ttf);
+}
+body { 
+    background-image: url("kid.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;             
+}
+.heading3 {
+    color: white;
+    position: fixed: right;
+}
+img.logo {
+    display: inline-block;
+    width: 120px;
+    margin-left: 5px;
+    padding: 0px;
+    overflow: hidden;
+}
+nav ul {
+    width: 100%;
+}
+ul {
+    font-family: 'Franklin Gothic Medium';
+    font-style: bold;
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #42646e;
+    opacity: 0.7;
+}
+li {
+    float: left;
+}
+li a, #dropbtn {
+    display: inline-block;
+    color: white;
+    font-size: 19px;
+    text-align: center;
+    margin-top: 30px;
+    padding: 14px 16px ;
+    text-decoration: none;
+    border-radius: 8px;
+}
+li a:hover, #dropdown:hover .dropbtn {
+    background-color: darkorange;
+}
+li#dropdown {
+    display: inline-block;
+}
+li#cnt {
+    float: right;
+    padding-right: 20px;
+    text-align: center;
+}
+.dropdown-cntnt {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border-radius: 10px;
+}
+.dropdown-cntnt a {
+    color: black;
+    padding: 5px 6px;
+    margin-top: 3px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+.dropdown-cntnt a:hover {background-color: greenyellow;}
+  
+#dropdown:hover .dropdown-cntnt {
+    display: block;
+}
+div {
+    text-align: center;
+}
+div h1 {
+    font-family: pixelmania;
+}
+div p {
+    text-align: left;
+    font-family: Digital-7;
+    font-style: italic;
+    padding-top: -100px;
+    padding-left: 400px;
+}
+div hr {
+    border: 3px solid;
+    margin: 0px 400px 20px;
+}
+#V1 {
+    font-family: Digital-7;
+    font-size: 28px;
+    border: solid;
+    border-radius: 8px ;
+    margin-bottom: 5px;
+    padding: 5px;
+    text-align: center;
+}
+#V2 {
+    font-family: Digital-7;
+    font-size: 28px;
+    border: solid;
+    border-radius: 8px ;
+    margin-bottom: 5px;
+    padding: 5px;
+    text-align: center;
+}
+button {
+    border-radius: 8px;
+    width: 30px; line-height: 20px;
+    font-size: 100%;
+}
+button#C {
+    width: 60px; line-height: 20px;
+    font-size: 100%;
+}
+#result {
+    font-family: Digital-7;
+    font-size: 35px;
+    border: dotted;
+    border-radius: 10px;
+    width: 150px; line-height: 40px;
+    text-align: center;
+}
