@@ -11,12 +11,14 @@ var balloons = [];
 var total = 12;
 var font;
 var foto, bgStatic;
-var txt = "HAPPY BIRTHDAY";
-var name = "RIVAAA";
+var txt = "HAPPY BIRTHDAY!!!";
+var txtp = "Alhamdulillah, kamu telah di bumi selama :";
+var txtp1 = "19 years or 228 months or 991 weeks 3 days or 6,940 days or 166,560 hours or 9,993,600 minutes or 599,616,000 seconds.";
+var name = "SWEETY PIEEE!!";
 var sfxPop;
 
 function preload() {
-	foto = loadImage("assets/img/foto.png");
+	foto = loadImage("assets/img/rv.png");
 	bgStatic = loadImage("assets/img/jakarta.png");
 	font = loadFont("assets/font/FredokaOne.ttf");
 	sfxPop = loadSound("assets/sfx/pop.mp3");
@@ -61,6 +63,8 @@ function draw() {
 	text(name, imgX + (mouseX - width / 2) / 30, imgY + 200 + (mouseY - height / 2) / 30);
 	// teks hbd
 	text(txt, imgX + (mouseX - width / 2) / 30, imgY - 150 + (mouseY - height / 2) / 30);
+    	text(txtp, imgX + (mouseX - width / 2) / 30, imgY + 270 + (mouseY - height / 2) / 30);
+   	text(txtp1, imgX + (mouseX - width / 2) / 30, imgY + 320 + (mouseY - height / 2) / 30);
 	pop();
 
 	// balloons
